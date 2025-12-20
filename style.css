@@ -1,0 +1,69 @@
+:root {
+  --text: #1f2933;
+  --muted: #555;
+  --accent: #2563eb;
+  --bg: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  padding: 24px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.2em;
+}
+
+.tagline {
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.contact {
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
+
+.contact a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+h2 {
+  margin-top: 48px;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 6px;
+}
+
+.role {
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 6px 18px;
+  list-style: square;
+}
+
+article {
+  margin-top: 24px;
+}
+
+.footer {
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+  margin-top: 60px;
+}
